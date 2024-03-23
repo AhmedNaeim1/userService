@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 const morgan = require("morgan");
 const bodyParser = require("body-parser");
-const pool = require("./dbconfig/dbConfig");
+const pool = require("./dbConfig/dbConfig");
 
 const userRoutes = require("./api/routes/userRoute");
 
